@@ -1,11 +1,11 @@
-package com.example;
+package com.watch_trigger;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
-public interface ExampleConfig extends Config
+@ConfigGroup("watch_trigger")
+public interface TriggerConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
